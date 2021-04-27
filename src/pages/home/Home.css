@@ -1,0 +1,14 @@
+#image-overlay {
+    top: 50vh;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+#image-overlay.active {
+    position: absolute;
+}
+
+#image-overlay.not-active {
+    display: none;
+}
